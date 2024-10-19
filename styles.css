@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive; /* Font in stile pixel */
+    background-color: #000; /* Sfondo nero */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#spaceInvadersGame {
+    background-color: black;
+    border: 2px solid white;
+}
+
+button {
+    background-color: darkblue; /* Pulsante blu scuro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Controlli si adattano a schermi più piccoli */
+    margin-top: 20px;
+}
+
+.controls button {
+    flex: 1; /* I pulsanti occupano uno spazio uguale */
+    margin: 0 5px;
+    font-size: 24px; /* Dimensione del font per i pulsanti */
+}

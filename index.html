@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!-- Font in stile pixel -->
+</head>
+<body>
+    <div id="welcome">
+        <h1>Benvenuto a Space Invaders!</h1>
+        <p>Fai clic sul pulsante qui sotto per iniziare il gioco!</p>
+        <button id="startGame">Inizia il Gioco</button>
+    </div>
+
+    <div id="gameSection" style="display: none;">
+        <h2>Gioco Space Invaders</h2>
+        <canvas id="spaceInvadersGame" width="400" height="400"></canvas>
+        <div id="score">Punteggio: 0</div>
+        <div id="lives" style="font-size: 24px; color: white;">❤️❤️❤️</div>
+        <div class="controls">
+            <button id="leftButton">⬅️</button>
+            <button id="rightButton">➡️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
